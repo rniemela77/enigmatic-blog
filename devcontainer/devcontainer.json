@@ -1,0 +1,9 @@
+{
+    "name": "PHP 8.1, Composer, Node.js",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [8000],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": ["felixfbecker.php-intellisense"]
+}
